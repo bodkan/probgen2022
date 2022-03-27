@@ -6,6 +6,9 @@ libgeos-dev
 proj-bin
 libproj-dev
 
+# kastore
+libgsl-dev
+
 # ggraph/igraph
 libglpk-dev
 
