@@ -8,4 +8,5 @@ devtools::install_github("bodkan/slendr")
 slendr::setup_env(agree = TRUE)
 
 # packages used in the examples
-install.packages(c("cowplot", "forcats"))
+install.packages(c("cowplot", "forcats", "BiocManager"))
+BiocManager::install("ggtree")
