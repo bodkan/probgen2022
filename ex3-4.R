@@ -34,13 +34,13 @@ ehg <- population(
 )
 
 eur <- population(
-  "EUR", time = 30000, N = 1000, parent = ooa,
+  "EUR", time = 30000, N = 2000, parent = ooa,
   map = map, polygon = R2
 ) %>%
-  resize(N = 10000, time = 2000, end = 0, how = "exponential")
+  resize(N = 10000, time = 5000, end = 0, how = "exponential")
 
 ana <- population(
-  "ANA", time = 25000, N = 5000, parent = ooa, remove = 3000,
+  "ANA", time = 25000, N = 4000, parent = ooa, remove = 3000,
   map = map, polygon = R3
 ) %>%
   expand_range(by = 3e6, start = 10000, end = 7000, polygon = R4, snapshots = 15)
