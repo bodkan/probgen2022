@@ -80,6 +80,7 @@ p_ex2_diversity <- ggplot(heterozygosity, aes(pop, pi, color = pop)) +
   theme(axis.title.x = element_blank(),
         axis.text.x = element_blank(), panel.grid.major.x = element_blank(),
         plot.margin = margin(t = 0.2, r = 0.2, b = -0.1, l = 0.2, "cm"))
+
 plot_grid(
   p_ex2_diversity,
   p_ex2_clustering +
