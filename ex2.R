@@ -41,6 +41,8 @@ model <- compile_model(
 # NOTE:
 # the amount of sequence to be simulated had to be drastically reduced
 # (diversity calculation will be extremely noisy)
+#
+# WARNING: This will take a couple of minutes when run on Binder.
 slim(model, sequence_length = 100000, recombination_rate = 1e-8)
 
 ts <- ts_load(model) %>% ts_simplify() %>% ts_mutate(mutation_rate = 1e-6)
