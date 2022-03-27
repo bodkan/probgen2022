@@ -16,5 +16,5 @@ rm -rf SLiM
 export PATH=/home/jovyan/bin:$PATH
 echo "PATH=$PATH" > ~/.Renviron
 
-echo 'cat("-------------------------\nPlease be aware that Binder cloud has extremely limited resources.\nThe system is much less powerful than a below average computer and\nvery large simulations will get killed.\n-------------------------\n")' > .Rprofile
+echo 'cat("-------------------------\nPlease be aware that Binder cloud has extremely limited resources.\nVery large simulations will get killed.\n-------------------------\n")' > .Rprofile
 
