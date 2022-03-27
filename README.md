@@ -1,6 +1,6 @@
 # *slendr*: browser-based demo for ProbGen 2022
 
-You can open a browser-based RStudio session and run the examples from our poster directly in your web browser (no installation needed!). Simply click on this button <img src="http://mybinder.org/badge.svg" alt="Binder"/>.
+You can open a browser-based RStudio session and run the examples from our poster directly in your web browser (no installation needed!). Simply click on this button: <img src="http://mybinder.org/badge.svg" alt="Binder"/>
 
 In case the Binder cloud instance appears to be having issues, please be patient. After all, it uses freely available computing resources that are shared among many different projects.
 
