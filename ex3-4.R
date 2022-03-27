@@ -1,6 +1,24 @@
-source("coordinates.R")
+# WARNING: A model like this is impossible to run using the extremely
+# limited resources provided by the free cloud Binder instance. In order
+# to even run this model, the population sizes had to be dramatically
+# decreased. The result produced by this model will be very different
+# to what is shown in the poster. However, the slendr workflow remains
+# identical and gives a good idea what an R slendr pipeline can look like.
+
+# import required libraries -----------------------------------------------
+
+library(slendr)
+
+library(dplyr)
+library(ggplot2)
+library(purrr)
+library(tidyr)
+library(cowplot)
+library(forcats)
 
 # example 3 ---------------------------------------------------------------
+
+source("coordinates.R")
 
 map <- world(xrange = c(-15, 60), yrange = c(20, 65), crs = 3035)
 
