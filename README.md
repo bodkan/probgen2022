@@ -1,4 +1,4 @@
-# Browser-based demo for the *slendr* [ProbGen 2022 poster](https://probgen22.github.io/abstracts/index.html#P40)
+# Interactive demo for the *slendr* [ProbGen 2022 poster](https://probgen22.github.io/abstracts/index.html#P40)
 
 You can open a browser-based RStudio session and run the examples from our poster directly in your web browser (no installation needed!). Simply click on this button: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bodkan/probgen2022/main?urlpath=rstudio)
 
